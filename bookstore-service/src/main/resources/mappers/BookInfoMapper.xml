@@ -1,0 +1,38 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.bookinfo.BookInfoDao">
+    <select id="getAll" resultType="com.entity.bookinfo.BookInfo">
+        select bookId, bookTypeId, bookName, bookPress, bookAuthor, bookPrice, bookStoremount, bookImg
+        from bookinfo order by bookId
+    </select>
+
+    <insert id="insert">
+        insert into bookinfo(bookTypeId,bookName,bookAuthor,bookPress,bookStoremount,bookPrice,bookImg)
+        values(#{bookTypeId},#{bookName},#{bookPress},#{bookAuthor},#{bookPrice},#{bookStoremount},#{bookImg})
+    </insert>
+
+    <delete id="delete">
+        delete from bookinfo where bookId=${bookId}
+    </delete>
+
+    <select id="getId" resultType="com.entity.bookinfo.BookInfo">
+        select bookId,bookTypeId, bookName, bookPress, bookAuthor, bookPrice, bookStoremount, bookImg from bookinfo where bookId=#{bookId}
+</select>
+
+    <update id="update">
+        update bookinfo set bookTypeId=#{bookTypeId},bookName=#{bookName},bookAuthor=#{bookAuthor},bookPress=#{bookPress},bookStoremount=#{bookStoremount},bookPrice=#{bookPrice},bookImg=#{bookImg} where bookId=#{bookId}
+    </update>
+
+    <select id="vague" resultType="com.entity.bookinfo.BookInfo">
+        select bookId, bookTypeId, bookName, bookPress, bookAuthor, bookPrice, bookStoremount, bookImg from bookinfo
+        <where>
+            <if test="name!=null and name!=''">
+                bookName like "%"#{name}"%"
+                or bookPress like "%"#{name}"%"
+                or bookAuthor like "%"#{name}"%"
+            </if>
+        </where>
+
+    </select>
+</mapper>

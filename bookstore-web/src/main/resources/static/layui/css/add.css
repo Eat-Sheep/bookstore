@@ -1,0 +1,26 @@
+.add-div {
+    border: black solid 1px;
+    width: 480px;
+    height: 600px;
+    margin-left: 33%;
+}
+
+.add-text {
+    width: 470px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    outline: 0;
+    border-bottom: #9F9F9F solid 2px;
+}
+
+.file {
+    margin-top: 30px;
+}
+
+.submit {
+    margin-top: 30px;
+    width: 470px;
+    height: 50px;
+    background-color: #9F9F9F;
+}

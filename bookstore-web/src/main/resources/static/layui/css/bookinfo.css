@@ -1,0 +1,279 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body-top {
+    float: top;
+    width: 100%;
+    height: 30px;
+    background-color: #9F9F9F;
+}
+
+.personal {
+    height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.personal-p {
+    margin-top: 15px;
+}
+
+.personal:hover {
+    width: 90px;
+    height: 100px;
+    background-color: white;
+    position: revert;
+}
+
+.top-ul > li {
+    float: right;
+    padding-right: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.div-body {
+    width: 100%;
+    height: 100%;
+}
+
+.heat {
+    height: 340px;
+    width: 95%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 65px;
+    font-size: 20px;
+}
+
+.heat-book {
+    height: 290px;
+    width: 100%;
+    border-bottom: black solid 1px;
+    border-top: black solid 1px;
+
+}
+
+.heat-p {
+    height: 245px;
+    width: 140px;
+    border-right: #00FF00 solid 1px;
+    border-left: #00FF00 solid 1px;
+    margin-left: 10px;
+    margin-top: 25px;
+    font-size: 15px;
+    float: left;
+}
+
+.heat-p > p {
+    margin-top: 20px;
+}
+
+.heat-div {
+    height: 280px;
+    width: 85%;
+    float: left;
+    padding-left: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.layui-carousel {
+    text-align: center;
+    float: left;
+    margin-left: 55px;
+    margin-top: 50px;
+}
+
+.div-img {
+    float: left;
+    height: 290px;
+    width: 210px;
+    margin-top: 50px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.search {
+    height: 100px;
+    width: 100%;
+    float: top;
+}
+
+.search-text {
+    height: 45px;
+    width: 40%;
+    margin-left: 240px;
+    margin-top: 20px;
+}
+
+.search-button {
+    height: 44px;
+    width: 60px;
+    background-color: #93D1FF;
+    border: none;
+    cursor: pointer;
+    margin-left: -3px;
+
+}
+
+
+.logon-register {
+    height: 44px;
+    width: 130px;
+    position: relative;
+    float: right;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.shopping {
+    height: 35px;
+    width: 130px;
+    float: right;
+    font-size: 20px;
+    color: #f30213;
+    border: #9F9F9F solid 1px;
+    cursor: pointer;
+    margin-top: -30px;
+    position: absolute;
+    left: 80%;
+}
+
+.classify {
+    margin-top: 40px;
+    height: 280px;
+    width: 220px;
+    float: left;
+
+}
+
+.classify-1 {
+    height: 280px;
+    width: 220px;
+    margin-top: 20px;
+}
+
+.classify-1 > ul {
+    font-size: 20px;
+    float: left;
+    cursor: pointer;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+.classify-1 li {
+    padding-left: 15px;
+}
+
+.classify-1 > p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.ranking {
+    width: 250px;
+    height: 1500px;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.ranking > p {
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.div-ranking {
+    margin-left: 25px;
+    width: 170px;
+    height: 210px;
+}
+
+.pagination {
+    position: absolute;
+    top: 100%;
+    left: 150px;
+}
+
+.pagination > li {
+    height: 30px;
+    width: 50px;
+    float: left;
+}
+
+.book {
+    width: 77%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.book-div-huojia {
+    float: left;
+    height: 265px;
+    width: 190px;
+    padding-top: 17px;
+    padding-left: 17px;
+}
+
+.book-div-huojia:hover {
+    box-shadow: #9F9F9F 1px 1px 50px;
+    cursor: pointer
+}
+
+.zhaopian {
+    height: 182px;
+    width: 168px;
+
+}
+
+.shuming {
+    height: 32px;
+    width: 168px;
+    text-align: left;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.jiaqian {
+    height: 25px;
+    width: 168px;
+    text-align: left;
+    margin-top: 10px;
+    color: #FD482C;
+
+    border-top: none;
+    font-size: 18px;
+}
+
+
+#layui-circle {
+    height: 25px;
+    width: 28px;
+    float: right;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+

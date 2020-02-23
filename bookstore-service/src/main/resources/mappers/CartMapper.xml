@@ -1,0 +1,12 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.cart.CartDao">
+    <insert id="order">
+        insert into cart(ordermount, price, cartName,tel)
+        values(#{ordermount},#{price},#{cartName},#{tel})
+    </insert>
+    <select id="tel" resultType="com.entity.cart.Cart">
+        select customerid, ordermount, price, cartName, tel from cart where tel=#{tel}
+    </select>
+</mapper>

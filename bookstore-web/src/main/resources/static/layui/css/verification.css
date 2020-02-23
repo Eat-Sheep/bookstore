@@ -1,0 +1,25 @@
+.div-body {
+    text-align: center;
+    height: 260px;
+    width: 400px;
+    border: black solid 1px;
+}
+
+.div-tel {
+    height: 50px;
+    width: 400px;
+}
+
+.div-submit {
+    height: 50px;
+    width: 400px;
+    background-color: #40AFFE;
+    text-align: center;
+}
+
+.nextstep {
+    height: 50px;
+    width: 400px;
+    background-color: red;
+    text-align: center;
+}

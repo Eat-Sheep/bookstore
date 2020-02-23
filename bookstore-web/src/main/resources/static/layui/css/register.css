@@ -1,0 +1,48 @@
+.register {
+    width: 800px;
+    height: 550px;
+    margin-top: 5%;
+    margin-left: 20%;
+    box-shadow: 2px 1px 100px #888888;
+}
+
+.add-div {
+    width: 400px;
+    height: 450px;
+    margin-top: 5%;
+    margin-left: 25%;
+    padding-top: 55px;
+}
+
+.add-text {
+    width: 400px;
+    height: 55px;
+    margin-top: 25px;
+}
+
+.div-tel {
+    width: 400px;
+    height: 55px;
+    margin-top: 25px;
+}
+
+.text-yanzhen {
+    width: 200px;
+    height: 55px;
+    margin-top: 25px;
+    float: left;
+}
+
+#yanzhen {
+    width: 200px;
+    height: 55px;
+    margin-top: 25px;
+    border: none;
+}
+
+.button {
+    height: 55px;
+    width: 400px;
+    margin-top: 30px;
+    border: none;
+}

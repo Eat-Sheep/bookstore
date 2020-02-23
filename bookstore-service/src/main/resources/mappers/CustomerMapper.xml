@@ -1,0 +1,19 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.customer.UserDao">
+    <select id="signin" resultType="com.entity.customer.User">
+        select userId, userName, userTel, userPwd, userSex, userAddr, userTime from user
+        where userTel=#{userTel}
+        and userPwd=#{userPwd}
+    </select>
+    <select id="query" resultType="com.entity.customer.User">
+        select userId, userName, userTel, userPwd, userSex, userAddr, userTime
+        from user order by userId
+    </select>
+
+    <insert id="register">
+        insert into user(userName, userPwd, userSex, userTel,  userAddr, userTime)
+        values (#{userName},#{userPwd},#{userSex},#{userTel},#{userAddr},#{userTime})
+    </insert>
+</mapper>
