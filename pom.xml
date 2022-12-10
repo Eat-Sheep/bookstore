@@ -24,7 +24,7 @@
         <mysql.version>5.1.47</mysql.version>
         <junit.version>4.12</junit.version>
 
-        <spring.version>5.2.0.RELEASE</spring.version>
+        <spring.version>6.0.0</spring.version>
         <junit.version>4.12</junit.version>
         <druid.version>1.1.20</druid.version>
         <mybatis.version>3.5.2</mybatis.version>
